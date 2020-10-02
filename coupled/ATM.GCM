@@ -1,0 +1,161 @@
+# Title:top
+# background:
+# cant units:3
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:0
+# 	location x:198
+# 	location y:74
+# 	name:cardreader
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:cardreader2.jpg
+# 	cant Initial params:3
+# 	InitialParam:distribution : normal
+# 	InitialParam:mean : 2
+# 	InitialParam:deviation : 1
+# 	Model imported form register:CardReader
+# 	cant ports:4
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:card_in
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:3
+# 	Port ID:cardno_out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:5
+# 	Port ID:eject
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:7
+# 	Port ID:card_out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:1
+# 	location x:327
+# 	location y:202
+# 	name:cashdispenser
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:cashdispenser.jpg
+# 	cant Initial params:3
+# 	InitialParam:distribution : normal
+# 	InitialParam:mean : 2
+# 	InitialParam:deviation : 1
+# 	Model imported form register:Cashdispenser
+# 	cant ports:2
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:in
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:4
+# 	Port ID:out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	Unit class:gui.model.unit.EditableCoupledModelUnit
+# 	Unique ID:2
+# 	location x:198
+# 	location y:354
+# 	name:auth
+# 	Filename:aut.GCM
+# 	export classpath:
+# 		class:gui.representation.Square
+# 		height:40
+# 		width:40
+# cant ports:3
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:3
+# 	Port ID:cash_out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	location x:49
+# 	location y:67
+# 	  class:gui.representation.OutPort
+# 	  radius:30
+# 	  width:30
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:4
+# 	Port ID:card_out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	location x:48
+# 	location y:143
+# 	  class:gui.representation.OutPort
+# 	  radius:30
+# 	  width:30
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:5
+# 	Port ID:in
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	location x:52
+# 	location y:257
+# 	  class:gui.representation.InPort
+# 	  radius:30
+# 	  width:30
+# Cant Links:7
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:6
+# 			start unit Point:5
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:5
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:7
+# 			start unit Point:0
+# 			end unit Point:2
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:5
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:8
+# 			start unit Point:2
+# 			end unit Point:1
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:9
+# 			start unit Point:2
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:5
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:10
+# 			start unit Point:2
+# 			end unit Point:0
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:4
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:5
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:11
+# 			start unit Point:1
+# 			end unit Point:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:4
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:12
+# 			start unit Point:0
+# 			end unit Point:4
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:7
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:4

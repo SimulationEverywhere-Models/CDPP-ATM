@@ -1,0 +1,17 @@
+00:00:13:975 get_pin 1
+00:00:31:592 get_amnt 1
+00:00:51:915 get_pin 1
+00:01:04:070 get_pin 1
+00:01:12:365 eject 1
+00:01:24:321 get_amnt 1
+00:01:35:699 get_pin 1
+00:01:45:310 get_pin 1
+00:01:54:892 get_amnt 1
+00:02:03:661 get_pin 1
+00:02:12:801 get_amnt 1
+00:02:25:374 get_pin 1
+00:02:28:110 get_pin 1
+00:02:35:356 eject 1
+
+
+// Note: For 20% probability of getting corect PIN

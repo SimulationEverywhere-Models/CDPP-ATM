@@ -1,0 +1,1 @@
+simu -mcashdisp.ma -ecashdisp.ev -lcashdisp.log -ocashdisp.out

@@ -1,0 +1,1 @@
+simu -mpinverif.ma -epinverif.ev -lpinverif.log -opinverif.out
